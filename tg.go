@@ -5,8 +5,7 @@ import (
 	"github.com/Syfaro/telegram-bot-api"
 	"log"
 	"os"
-        "github.com/vb/tl"
-)
+        "github.com/BelovVladimir/translater/tl")
 
 var (
 	// глобальная переменная в которой храним токен
