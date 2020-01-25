@@ -1,4 +1,4 @@
-package main
+package tg
 
 import (
 	"flag"
@@ -24,7 +24,7 @@ func init() {
 	}
 }
 
-func main() {
+func Tg() {
 	// используя токен создаем новый инстанс бота
 	bot, err := tgbotapi.NewBotAPI(telegramBotToken)
 	if err != nil {
